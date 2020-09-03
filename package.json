@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "test": "mocha"
+    "stop": "pkill --signal SIGINT index"
   },
   "repository": {
     "type": "git",
