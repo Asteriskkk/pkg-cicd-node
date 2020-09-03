@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "forever start index.js",
     "test": "mocha",
-    "stop": "pkill --signal SIGINT index"
+    "stop": "forever stop index.js"
   },
   "repository": {
     "type": "git",
