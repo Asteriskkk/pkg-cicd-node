@@ -6,7 +6,7 @@
   "scripts": {
     "start": "forever start index.js",
     "test": "mocha",
-    "stop": "forever stop index.js"
+    "stop": "forever stopall"
   },
   "repository": {
     "type": "git",
