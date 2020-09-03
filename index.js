@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 process.title = process.argv[2];
+console.log('process title',process.title)
 app.get('/new',(req, res)=>{
     res.status(200).send('<h1>New Page</h1>')
 })
