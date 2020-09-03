@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 
 
+app.get('/id',(req, res)=>{
+    res.status(200).send('<h1>Id Page</h1>')
+})
 
 app.get('/list',(req, res)=>{
     res.status(200).send('<h1>List Page</h1>')
