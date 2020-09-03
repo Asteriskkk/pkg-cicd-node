@@ -9,5 +9,5 @@ app.get('/home',(req, res)=>{
 })
 
 app.listen("3000",function(){
-    console.log('app running at port 3000')
+    console.log('app running at port 3000 with build' )
 })
