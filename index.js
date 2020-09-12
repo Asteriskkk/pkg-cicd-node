@@ -11,9 +11,7 @@ app.get('/test',(req, res)=>{
 })
 
 
-app.get('/list',(req, res)=>{
-    res.status(200).send('<h1>List Page</h1>')
-})
+
 
 app.get('/home',(req, res)=>{
     res.status(200).send('<h1>Home Page</h1>')
