@@ -6,6 +6,10 @@ app.get('/new',(req, res)=>{
     res.status(200).send('<h1>New Page</h1>')
 })
 
+app.get('/test',(req, res)=>{
+    res.status(200).send('<h1>test Page</h1>')
+})
+
 app.get('/id',(req, res)=>{
     res.status(200).send('<h1>Id Page</h1>')
 })
